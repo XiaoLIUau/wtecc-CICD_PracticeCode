@@ -11,10 +11,10 @@ This folder holds the files for the lab: _Use Tekton CD Catalog_ which is part o
 `kubectl apply -f pipeline.yaml`
 
 ## The Command to run the cd-pipeline
-`
+```
 tkn pipeline start cd-pipeline \
     -p repo-url="https://github.com/XiaoLIUau/wtecc-CICD_PracticeCode.git" \
     -p branch="main" \
     -w name=pipeline-workspace,claimName=pipelinerun-pvc \
     --showlog
-`
+```
