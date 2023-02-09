@@ -11,5 +11,5 @@ In a new terminal, run following curl command:
 `
 curl -X POST http://localhost:8090 \
   -H 'Content-Type: application/json' \
-  -d '{"ref":"main","repository":{"url":"https://github.com/ibm-developer-skills-network/wtecc-CICD_PracticeCode"}}'
+  -d '{"ref":"main","repository":{"url":"https://github.com/XiaoLIUau/wtecc-CICD_PracticeCode"}}'
 `
