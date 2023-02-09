@@ -19,7 +19,7 @@ kubectl apply -f pvc.yaml
 tkn pipeline start cd-pipeline \
     -p repo-url="https://github.com/XiaoLIUau/wtecc-CICD_PracticeCode.git" \
     -p branch=main \
-    -p build-image=image-registry.openshift-image-registry.svc:5000/$SN_ICR_NAMESPACE/tekton-lab:latest \
+    -p build-image=image-registry.openshift-image-registry.svc:5000/sn-labs-xiaoliuconta/tekton-lab:latest \
     -w name=pipeline-workspace,claimName=pipelinerun-pvc \
     --showlog
 ```
