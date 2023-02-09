@@ -26,7 +26,7 @@ spec:
       params:
       - name: url
         value: "$(params.repo-url)"
-      - name: version
+      - name: revision
         value: "$(params.branch)"
       runAfter:
         - init
