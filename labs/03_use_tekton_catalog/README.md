@@ -11,11 +11,17 @@ kubectl apply -f tasks.yaml
 kubectl apply -f pipeline.yaml
 ```
 
-## The Command to run the cd-pipeline
+## The command to run the cd-pipeline
 ```
 tkn pipeline start cd-pipeline \
     -p repo-url="https://github.com/XiaoLIUau/wtecc-CICD_PracticeCode.git" \
     -p branch="main" \
     -w name=pipeline-workspace,claimName=pipelinerun-pvc \
     --showlog
+```
+
+## Check run pipeline and logs
+```
+tkn pipelinerun ls
+tkn pipelinerun logs --last
 ```
