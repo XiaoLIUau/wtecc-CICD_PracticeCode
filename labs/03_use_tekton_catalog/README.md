@@ -6,9 +6,10 @@ This folder holds the files for the lab: _Use Tekton CD Catalog_ which is part o
 `tkn hub install task git-clone --version 0.8`
 
 ## Create or configure the yaml files
-`kubectl apply -f tasks.yaml`
-
-`kubectl apply -f pipeline.yaml`
+```
+kubectl apply -f tasks.yaml
+kubectl apply -f pipeline.yaml
+```
 
 ## The Command to run the cd-pipeline
 ```
