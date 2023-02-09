@@ -8,6 +8,7 @@ This folder holds the files for the lab: _Adding GitHub Triggers_ which is part 
 
 ## Command to set a trigger
 In a new terminal, run following curl command:
+
 `
 curl -X POST http://localhost:8090 \
   -H 'Content-Type: application/json' \
